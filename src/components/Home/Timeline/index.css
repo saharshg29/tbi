@@ -1,0 +1,20 @@
+.left {
+  grid-area: left;
+
+  background-color: blue;
+}
+
+.right {
+  grid-area: right;
+  background-color: rebeccapurple;
+}
+
+.heading {
+    grid-area: title;
+} 
+
+.timeline {
+  display: grid;
+  grid:"title title" 
+  "left right";
+}

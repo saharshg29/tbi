@@ -1,0 +1,63 @@
+nav {
+  background-color: azure;
+  min-height: 8vh;
+  width: 98vw;
+  display: grid;
+  grid: "logo menu menu menu menu";
+}
+
+.logo {
+  grid-area: logo;
+  border: 2px solid black;
+  padding: 0px;
+  margin-right: 35%;
+  background-image: image-set("./logo.jpeg");
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+}
+.menu {
+  grid-area: menu;
+  display: grid;
+  grid: "space space item1 item2 item3 item4 item5 item6 item7 ";
+}
+
+.menu > div {
+  padding: 10px 20px;
+  border: 1px solid black;
+  margin: 10px;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.menu > div > a {
+  text-decoration: none;
+}
+
+.space {
+  grid-area: space;
+}
+
+.item {
+  grid-area: item1;
+}
+.item {
+  grid-area: item2;
+}
+.item {
+  grid-area: item3;
+}
+.item {
+  grid-area: item4;
+}
+.item {
+  grid-area: item5;
+}
+.item {
+  grid-area: item6;
+}
+.item {
+  grid-area: item7;
+}

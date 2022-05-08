@@ -1,0 +1,36 @@
+.parallax {
+  min-height: 100vh;
+
+  background-image: url("./img/b2.jpg");
+
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax1 {
+  min-height: 100vh;
+
+  background-image: url("./img/b1.jpg");
+
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  min-height: 100vh;
+
+  background-image: url("./img/b3.jpeg");
+
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
