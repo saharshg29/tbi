@@ -7,7 +7,7 @@ const R3 = () => {
         <div class="card" style={{ width: "25rem", height: "60vh" }}>
           <img src={I3} class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">STARTUP INDIA SEED FUND SCHEME</h5>
             <p class="card-text">
               The Startup India initiative of the Government of India envisages
               building a robust Start-up ecosystem in the country for nurturing

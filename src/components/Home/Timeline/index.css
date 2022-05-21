@@ -10,11 +10,30 @@
 }
 
 .heading {
-    grid-area: title;
-} 
+  grid-area: title;
+}
 
 .timeline {
   display: grid;
-  grid:"title title" 
-  "left right";
+  grid:
+    "title title"
+    "left right";
+}
+
+#parallax {
+  background-image: url('../img/Dark.jpg');
+
+  /* Set a specific height */
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.con {
+  height: 100%;
 }

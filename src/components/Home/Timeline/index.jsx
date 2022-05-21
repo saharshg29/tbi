@@ -14,71 +14,88 @@ const Timeline = () => {
       <div className="mw-100 bg bg-primary mb-3 d-flex justify-content-center">
         <h1 className="p-3 text-light ">Programs</h1>
       </div>
-      <div className="container h-100 bg bg-primary">
-
-        {/* ROW 1 */}
-        <div className="row" style={{ height: "100vh" }}>
-          <div
-            style={{ height: "50vh", marginTop: "20vh" }}
-            className="col d-flex justify-content-end pl-5"
-          >
-            <L1></L1>
+      <div className="con container h-100">
+        <div id="parallax">
+          {" "}
+          {/* ROW 1 */}
+          <div className="row " style={{ height: "120vh" }}>
+            <div
+              style={{ height: "50vh", marginTop: "20vh" }}
+              className="col d-flex justify-content-end pl-5"
+            >
+              <L1></L1>
+            </div>
+            <div className="col d-flex justify-content-left"></div>
           </div>
-          <div className="col d-flex justify-content-left"></div>
-        </div>
-
-        {/* ROW 2 */}
-        <div className="row" style={{ height: "100vh" }}>
-          <div className="col d-flex justify-content-end pl-5"></div>
+          {/* ROW 2 */}
           <div
-            className="col d-flex justify-content-left"
-            style={{ height: "50vh" }}
+            className="row"
+            id="parallax"
+            style={{ height: "120vh", background: "transparent" }}
           >
-            <R1></R1>
+            <div className="col d-flex justify-content-end pl-5"></div>
+            <div
+              className="col d-flex justify-content-left"
+              style={{ height: "50vh" }}
+            >
+              <R1></R1>
+            </div>
           </div>
-        </div>
-
-        {/* ROW 3 */}
-        <div className="row" style={{ height: "100vh" }}>
+          {/* ROW 3 */}
           <div
-            style={{ height: "50vh" }}
-            className="col d-flex justify-content-end pl-5"
+            className="row"
+            id="parallax"
+            style={{ height: "120vh", background: "transparent" }}
           >
-            <L2></L2>
+            <div
+              style={{ height: "50vh" }}
+              className="col d-flex justify-content-end pl-5"
+            >
+              <L2></L2>
+            </div>
+            <div className="col d-flex justify-content-left"></div>
           </div>
-          <div className="col d-flex justify-content-left"></div>
-        </div>
-
-        {/* ROW 4 */}
-        <div className="row" style={{ height: "100vh" }}>
-          <div className="col d-flex justify-content-end pl-5"></div>
+          {/* ROW 4 */}
           <div
-            className="col d-flex justify-content-left"
-            style={{ height: "50vh" }}
+            className="row"
+            id="parallax"
+            style={{ height: "120vh", background: "transparent" }}
           >
-            <R2></R2>
+            <div className="col d-flex justify-content-end pl-5"></div>
+            <div
+              className="col d-flex justify-content-left"
+              style={{ height: "50vh" }}
+            >
+              <R2></R2>
+            </div>
           </div>
-        </div>
-
-        {/* ROW 5 */}
-        <div className="row" style={{ height: "100vh" }}>
+          {/* ROW 5 */}
           <div
-            style={{ height: "50vh" }}
-            className="col d-flex justify-content-end pl-5"
+            className="row"
+            id="parallax"
+            style={{ height: "120vh", background: "transparent" }}
           >
-            <L3></L3>
+            <div
+              style={{ height: "50vh" }}
+              className="col d-flex justify-content-end pl-5"
+            >
+              <L3></L3>
+            </div>
+            <div className="col d-flex justify-content-left"></div>
           </div>
-          <div className="col d-flex justify-content-left"></div>
-        </div>
-
-        {/* ROW 6 */}
-        <div className="row" style={{ height: "100vh" }}>
-          <div className="col d-flex justify-content-end pl-5"></div>
+          {/* ROW 6 */}
           <div
-            style={{ height: "50vh" }}
-            className="col d-flex justify-content-left"
+            className="row"
+            id="parallax"
+            style={{ height: "120vh", background: "transparent" }}
           >
-            <R3></R3>
+            <div className="col d-flex justify-content-end pl-5"></div>
+            <div
+              style={{ height: "50vh" }}
+              className="col d-flex justify-content-left"
+            >
+              <R3></R3>
+            </div>
           </div>
         </div>
       </div>
