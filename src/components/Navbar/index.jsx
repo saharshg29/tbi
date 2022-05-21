@@ -1,36 +1,65 @@
 import "./index.css";
+import { useNavigate } from "react-router-dom";
 import logo from "./logo.jpeg";
-import { Link } from "react-router-dom";
 
 const Nav = () => {
+  const navigate = useNavigate();
   return (
     <>
-      <nav>
-        <div className="logo">
-          <img src={logo} alt="" />
-        </div>
-        <div className="menu">
-          <span className="space"></span>
-          <div className="item1">
-            <Link to="/">Home</Link>
-          </div>
-          <div className="item2">
-            <Link to="/about">About Us</Link>
-          </div>
-          <div className="item3">
-            <Link to="/incubation">Incubation</Link>
-          </div>
-          <div className="item4">
-            <Link to="/facility">Facility Support</Link>
-          </div>
-          <div className="item5">
-            <Link to="/portfolio">Portfolio</Link>
-          </div>
-          <div className="item6">
-            <Link to="/blocg">Blog</Link>
-          </div>
-          <div className="item7">
-            <Link to="/contact">Contact</Link>
+      <nav className="fixed-top navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <div className="container-fluid">
+          <img
+          id="img"
+            onClick={() => navigate("/")}
+            src={logo}
+            className="navbar-brand"
+            alt=""
+          />
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a href="/" className="nav-link active" aria-current="page">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="/" className="nav-link">
+                  Link
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="/"
+                  className="nav-link disabled"
+                  tabIndex="-1"
+                  aria-disabled="true"
+                >
+                  Disabled
+                </a>
+              </li>
+            </ul>
+            <form className="d-flex">
+              <input
+                className="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button className="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
           </div>
         </div>
       </nav>

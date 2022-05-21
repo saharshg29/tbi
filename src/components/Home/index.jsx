@@ -1,12 +1,10 @@
-import "./index.css";
+import "./home.css";
+import Carousel from "./Carousel";
 import Timeline from "./Timeline";
 const Home = () => {
   return (
     <>
-      <div className="parallax"></div>
-      <div className="parallax1"></div>
-      <div className="parallax2"></div>
-
+      <Carousel />
       <Timeline />
     </>
   );
