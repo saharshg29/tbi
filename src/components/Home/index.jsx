@@ -1,13 +1,13 @@
 import "./home.css";
 import Carousel from "./Carousel";
 import Timeline from "./Timeline";
-import Brouchers from "./Brouchers";
+import Broucher from "./Broucher";
 const Home = () => {
   return (
     <>
       <Carousel />
       <Timeline />
-      <Brouchers />
+      <Broucher />
     </>
   );
 };
