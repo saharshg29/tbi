@@ -1,5 +1,5 @@
 import I1 from "../../img/I1.jpeg";
-
+import { Link } from "react-router-dom";
 const L1 = () => {
   return (
     <>
@@ -12,9 +12,9 @@ const L1 = () => {
             (NIDHI) is an umbrella programme conceived and developed for
             nurturing ideas and innovations into successful startups
           </p>
-          <a href="#" class="btn btn-primary">
+          <Link to="/" class="btn btn-primary">
             Go somewhere
-          </a>
+          </Link>
         </div>
       </div>
     </>

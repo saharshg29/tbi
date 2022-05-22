@@ -1,5 +1,5 @@
 import I5 from "../../img/I5.jpeg";
-
+import { Link } from "react-router-dom";
 const L3 = () => {
   return (
     <>
@@ -12,9 +12,9 @@ const L3 = () => {
             scheme to encourage research and innovation among MSMEs and
             start-ups in the manufacturing sectors.
           </p>
-          <a href="#" class="btn btn-primary">
+          <Link to="/" class="btn btn-primary">
             Go somewhere
-          </a>
+          </Link>
         </div>
       </div>
     </>

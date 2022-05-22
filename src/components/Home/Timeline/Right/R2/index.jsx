@@ -1,5 +1,5 @@
 import I4 from "../../img/I4.jpeg";
-
+import { Link } from "react-router-dom";
 const R2 = () => {
   return (
     <>
@@ -12,9 +12,9 @@ const R2 = () => {
             efficiency through digital services and ensuring a secure cyber
             space.
           </p>
-          <a href="#" class="btn btn-primary">
+          <Link to="/" class="btn btn-primary">
             Go somewhere
-          </a>
+          </Link>
         </div>
       </div>
     </>

@@ -1,5 +1,5 @@
 import I3 from "../../img/I3.jpeg";
-
+import { Link } from "react-router-dom";
 const L2 = () => {
   return (
     <>
@@ -13,9 +13,9 @@ const L2 = () => {
             maximum support can be provided per innovator/ incubatee is upto Rs.
             10 lakhs.
           </p>
-          <a href="#" class="btn btn-primary">
+          <Link to="/" class="btn btn-primary">
             Go somewhere
-          </a>
+          </Link>
         </div>
       </div>
     </>

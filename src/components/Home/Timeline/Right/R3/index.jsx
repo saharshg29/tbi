@@ -1,5 +1,5 @@
 import I3 from "../../img/I6.jpeg";
-
+import { Link } from "react-router-dom";
 const R3 = () => {
   return (
     <>
@@ -13,9 +13,9 @@ const R3 = () => {
               building a robust Start-up ecosystem in the country for nurturing
               innovation and providing opportunities to budding entrepreneurs.
             </p>
-            <a href="#" class="btn btn-primary">
+            <Link to='/' class="btn btn-primary">
               Go somewhere
-            </a>
+            </Link>
           </div>
         </div>
       </>
